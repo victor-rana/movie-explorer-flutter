@@ -1,16 +1,69 @@
-# movie_explorer_app
+# 🎬 Movie Explorer Flutter
 
-A new Flutter project.
+A cross-platform Flutter application to discover and explore movies in a beautifully designed interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Movie Discovery**: Browse a curated list of movies.
+- **Detailed Information**: View detailed info for each movie—title, overview, rating, release date.
+- **Responsive Design**: Optimized for phones, tablets, and desktops.
+- **Cross-Platform**: Works on Android, iOS, Web, and Desktop.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- A suitable editor (Android Studio, VS Code)
+
+### Installation
+
+```bash
+git clone https://github.com/victor-rana/movie-explorer-flutter.git
+cd movie-explorer-flutter
+flutter pub get
+flutter run
+```
+
+---
+
+## 🧪 Running Tests
+
+```bash
+flutter test
+```
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+lib/
+├── constants/            # App-wide constant values (colors, URLs, keys)
+│   └── constants.dart
+│
+├── models/               # Data models (e.g., Movie)
+│   └── movie.dart
+│
+├── screens/              # UI screens
+│   ├── home_screen.dart
+│   └── movie_detail_screen.dart
+│
+├── services/             # API service layer
+│   └── api_service.dart
+│
+├── widgets/              # Reusable UI components
+│   ├── movie_card.dart
+│   └── rating_widget.dart
+│
+└── main.dart             # App entry point
+```
+
+---
+
+For more info on Flutter, visit the [official Flutter docs](https://flutter.dev/docs).
+
